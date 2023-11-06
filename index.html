@@ -1,46 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-        <title>Hana's Website</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-        <style>
-        img {
-            max-width: 100%;
-            }
-        </style>
-    </head>
-    <body>
-       <h1 class="text">Hana Gamracy</h1>
-       <!-- <p class="text">Hey welcome! Enjoy this page and explore!</p> -->
-       <div style = "position:absolute; left:20px; top:300px;">
-       <img id="smiley" alt="Smiley face" src="https://assets.codepen.io/6093409/smiley-face.png">
- 
-    <img src="tennis.JPG" 
-        width = "240"
-        height = "400"
-        />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Hana's Website</title>
+</head>
+<body>
+    <h1 class="text">Hana Gamracy</h1>
+    <!-- Commented out paragraph
+    <p class="text">Hey welcome! Enjoy this page and explore!</p>
+    -->
+    <div class="image-container">
+        <img id="smiley" alt="Smiley face" src="https://assets.codepen.io/6093409/smiley-face.png">
+        <img src="tennis.JPG" alt="Tennis">
     </div>
-    <div style = "position:absolute; left:1px; right:1px; top:100px;">
-    <marquee  behavior="scroll" direction="left">
-    <img src="ball.jpg" 
-        width = "80"
-        height = "80"
-    />
-        <!--this below commented out part can create a textbox where you can enter whatever into the name textbox -->
-        <!--<label for="Name">Name:</label>
-        <input type="text" id="Name" name="Name"> -->
+    <div class="marquee-container">
+        <marquee behavior="scroll" direction="left">
+            <img src="ball.jpg" alt="Ball">
+        </marquee>
         <p class="text">Hey welcome! Enjoy this page and explore!</p>
-        
-      <script>
-        // Identifying our image
-        const smiley = document.querySelector("#smiley");
-        // Adding reaction when image is clicked
-        smiley.addEventListener("click", () => {
-           alert(`Smiley says "Welcome to Hanas page!"`);
-        });
-      </script>
-    </body>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
