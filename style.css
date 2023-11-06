@@ -1,21 +1,47 @@
+img {
+    max-width: 100%;
+}
+
 p {
     color: rgb(40, 111, 209);
 }
+
 body {
-  background-color: lightpink;
+    background-color: lightpink;
 }
+
 h1 {
-  font-size: 36px;
+    font-size: 36px;
 }
+
 .text {
-  color: rgb(226, 43, 159);
+    color: rgb(226, 43, 159);
 }
+
 #smiley {
-  width: 50%;
-  height: auto;
+    width: 50%;
+    height: auto;
 }
+
 @media only screen and (max-width: 200px) {
     #smiley {
         width: 100px;
     }
+}
+
+/* You can include the inline styles here as well by using appropriate selectors */
+
+/* For the first div with inline style */
+div:first-of-type {
+    position: absolute;
+    left: 20px;
+    top: 300px;
+}
+
+/* Assuming the marquee is the second div with inline style */
+div:nth-of-type(2) {
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 100px;
 }
