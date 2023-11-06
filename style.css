@@ -20,6 +20,10 @@ img {
   width: 25%;
   height: auto;
 }
+#tennis {
+  width: 50%; 
+  height: auto;
+}
 
 /* Marquee Container */
 .marquee-container {
