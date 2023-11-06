@@ -7,6 +7,12 @@ body {
     background-color: lightpink;
      padding: 20px;
 }
+/* Title and Smiley styles */
+.title-with-smiley {
+    display: flex; /* Aligns the h1 and img side by side */
+    align-items: center; /* Vertically centers the items in the flex container */
+    gap: 10px; /* Optional: Adds some space between the h1 and img */
+}
 
 h1 {
     font-size: 36px;
@@ -18,12 +24,19 @@ h1 {
     color: rgb(226, 43, 159);
 }
 
-/* ID-specific styles */
-#smiley {
+/* /* ID-specific styles */
+/* #smiley {
     margin-top: 20px;
     width: 12%;
     height: auto;
     margin-bottom: 20px;
+} */ 
+#smiley {
+    margin-top: 0;
+    margin-bottom: 0; /* Remove margins for vertical alignment */
+    width: 50px; /* Set a fixed width for the smiley */
+    height: auto;
+    cursor: pointer; /* Optional: Change cursor on hover to indicate it's clickable */
 }
 /* Add these new styles */
 .bubble-textbox {
