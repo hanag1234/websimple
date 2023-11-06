@@ -24,6 +24,10 @@ img {
   width: 2%; 
   height: auto;
 }
+#ball {
+  width: 50px; /* or any size that suits your design */
+  height: auto; /* maintain aspect ratio */
+}
 
 /* Marquee Container */
 .marquee-container {
