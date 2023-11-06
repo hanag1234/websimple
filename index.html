@@ -8,16 +8,18 @@
     </head>
     <body>
         <h1 class="text">Hana Gamracy</h1>
-        <div>
+        <!-- <p class="text">Hey welcome! Enjoy this page and explore!</p> -->
+        <div class="absolute-img">
             <img id="smiley" alt="Smiley face" src="https://assets.codepen.io/6093409/smiley-face.png">
-            <img id = "tennis" src="tennis.JPG" alt="Tennis">
+            <img src="tennis.JPG" class="tennis-image" alt="Tennis">
         </div>
-        <div>
+        <div class="marquee-container">
             <marquee behavior="scroll" direction="left">
-                <img src="ball.jpg" alt="Ball">
+                <img src="ball.jpg" class="ball-image" alt="Ball">
                 <p class="text">Hey welcome! Enjoy this page and explore!</p>
             </marquee>
         </div>
+        
         <script>
             // Identifying our image
             const smiley = document.querySelector("#smiley");
