@@ -22,6 +22,40 @@ h1 {
     width: 50%;
     height: auto;
 }
+/* Add these new styles */
+.bubble-textbox {
+    font-size: 24px; /* Big letters for the title */
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.profile-link img {
+    width: 50px; /* Adjust the size of LinkedIn image as needed */
+    height: auto;
+    margin-top: 10px;
+}
+
+.profile-info {
+    margin: 20px;
+    font-size: 18px; /* Adjust the font size as per your design */
+}
+
+/* Add this to ensure your email and the LinkedIn image are displayed inline */
+.contact-details {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds a little space between the text and the image */
+}
+
+/* You can use this class to give a style to your email */
+.email {
+    font-weight: bold;
+    text-decoration: none; /* Removes underline from email */
+    color: black; /* Sets the email color to black, adjust as needed */
+}
 
 /* Absolute positioned images */
 .absolute-img {
