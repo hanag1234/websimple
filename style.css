@@ -1,57 +1,21 @@
-/* General Styles */
+p {
+    color: rgb(40, 111, 209);
+}
 body {
   background-color: lightpink;
 }
-
 h1 {
   font-size: 36px;
 }
-
 .text {
   color: rgb(226, 43, 159);
 }
-
-/* Image Styles */
-img {
-  max-width: 100%;
-}
-
 #smiley {
-  width: 25%;
+  width: 50%;
   height: auto;
 }
-#tennis {
-  width: 2%; 
-  height: auto;
-}
-#ball {
-  width: 50px; /* or any size that suits your design */
-  height: auto; /* maintain aspect ratio */
-}
-
-/* Marquee Container */
-.marquee-container {
-  position: absolute;
-  left: 1px;
-  right: 1px;
-  top: 100px;
-}
-
-/* Image Container */
-.image-container {
-  position: absolute;
-  left: 20px;
-  top: 300px;
-}
-
-/* Media Queries */
 @media only screen and (max-width: 200px) {
     #smiley {
         width: 100px;
     }
-}
-
-/* Additional Styles */
-p {
-  color: rgb(40, 111, 209);
 }
