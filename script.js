@@ -1,7 +1,7 @@
-// Identifying our image
-const smiley = document.querySelector("#smiley");
+// // Identifying our image
+// const smiley = document.querySelector("#smiley");
 
-// Adding reaction when image is clicked
-smiley.addEventListener("click", () => {
-   alert(`Smiley says "Welcome to Hana's page!"`);
-});
+// // Adding reaction when image is clicked
+// smiley.addEventListener("click", () => {
+//    alert(`Smiley says "Welcome to Hana's page!"`);
+// });
