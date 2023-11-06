@@ -22,6 +22,10 @@ h1 {
     width: 50%;
     height: auto;
 }
+#tennisImage {
+    width: 50%;  /* This will make the image width 50% of its container */
+    height: auto; /* This will maintain the aspect ratio */
+}
 
 @media only screen and (max-width: 200px) {
     #smiley {
