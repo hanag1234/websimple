@@ -1,9 +1,6 @@
+/* General styles */
 img {
     max-width: 100%;
-}
-
-p {
-    color: rgb(40, 111, 209);
 }
 
 body {
@@ -12,40 +9,48 @@ body {
 
 h1 {
     font-size: 36px;
+    color: rgb(226, 43, 159); /* If you want to apply the color for .text class to h1 as well */
 }
 
+/* Class-specific styles */
 .text {
     color: rgb(226, 43, 159);
 }
 
+/* ID-specific styles */
 #smiley {
-    width: 10%;
+    width: 50%;
     height: auto;
 }
-#tennis {
-    width: 50%;  /* This will make the image width 50% of its container */
-    height: auto; /* This will maintain the aspect ratio */
+
+/* Absolute positioned images */
+.absolute-img {
+    position: absolute;
+    left: 20px;
+    top: 300px;
 }
 
+.marquee-container {
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 100px;
+}
+
+/* Media queries */
 @media only screen and (max-width: 200px) {
     #smiley {
         width: 100px;
     }
 }
 
-/* You can include the inline styles here as well by using appropriate selectors */
-
-/* For the first div with inline style */
-div:first-of-type {
-    position: absolute;
-    left: 20px;
-    top: 300px;
+/* Inline styles converted */
+.tennis-image {
+    width: 140px;
+    height: 200px;
 }
 
-/* Assuming the marquee is the second div with inline style */
-div:nth-of-type(2) {
-    position: absolute;
-    left: 1px;
-    right: 1px;
-    top: 100px;
+.ball-image {
+    width: 80px;
+    height: 80px;
 }
