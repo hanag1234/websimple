@@ -20,7 +20,8 @@ h1 {
 
 /* ID-specific styles */
 #smiley {
-    width: 50%;
+    margin-top: 20px;
+    width: 10%;
     height: auto;
     margin-bottom: 20px;
 }
