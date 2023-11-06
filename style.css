@@ -59,9 +59,10 @@ h1 {
 
 /* Absolute positioned images */
 .absolute-img {
-    position: absolute;
+/*     position: absolute;
     left: 20px;
-    top: 300px;
+    top: 300px; */
+    text-align: center;   
 }
 
 .marquee-container {
