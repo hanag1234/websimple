@@ -10,7 +10,7 @@ body {
 
 h1 {
     font-size: 45px;
-    color: rgb(226, 43, 159); /* If you want to apply the color for .text class to h1 as well */
+    color: rgb(226, 43, 159); 
 }
 
 /* Class-specific styles */
