@@ -88,6 +88,6 @@ h1 {
 
 .header-image {
     width: 20px; /* Adjust the size as needed */
-    height: auto;
+    height: 20px;
     margin: 0 10px; /* Adds some space between the text and the images */
 }
