@@ -88,8 +88,8 @@ h1 {
 }
 
 .header-flag {
-    width: 20px; /* Smaller width */
-    height: auto; /* Maintain aspect ratio */
+    width: 30px; /* Smaller width */
+    height: 20px; /* Maintain aspect ratio */
 }
 
 .text {
