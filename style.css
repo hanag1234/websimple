@@ -88,11 +88,10 @@ h1 {
 }
 
 .header-flag {
-    width: 40px; /* Smaller width */
-    height: 30px; /* Maintain aspect ratio */
-}
+    width: 40px; 
+    height: auto; 
 
 .text {
-    margin: 0; /* Remove margin to ensure tight alignment */
-    display: inline-block; /* This might be optional depending on your layout */
+    margin: 0;
+    display: inline-block; 
 }
