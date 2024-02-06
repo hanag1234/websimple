@@ -87,7 +87,7 @@ h1 {
 }
 
 .header-image {
-    width: 10px; /* Adjust the size as needed */
-    height: 10px;
-    margin: 0 10px; /* Adds some space between the text and the images */
+    width: 50px; /* Adjust to the desired width for your flags */
+    height: auto; /* Maintains the aspect ratio */
+    margin: 0 10px; /* Adds some space around the images */
 }
