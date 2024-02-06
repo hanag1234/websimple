@@ -84,10 +84,15 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px; /* Adjust the space between the elements */
 }
 
-.header-image {
-    width: 50px; /* Adjust to the desired width for your flags */
-    height: auto; /* Maintains the aspect ratio */
-    margin: 0 10px; /* Adds some space around the images */
+.header-flag {
+    width: 30px; /* Smaller width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.text {
+    margin: 0; /* Remove margin to ensure tight alignment */
+    display: inline-block; /* This might be optional depending on your layout */
 }
