@@ -77,8 +77,8 @@ h1 {
 }
 
 .ball-image {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }
 .header-container {
     display: flex;
