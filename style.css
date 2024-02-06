@@ -80,3 +80,14 @@ h1 {
     width: 80px;
     height: 80px;
 }
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-image {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    margin: 0 10px; /* Adds some space between the text and the images */
+}
